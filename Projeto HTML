@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/orkut.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title> ORKUT </title>
+    <style>
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 99vw;
+    height: 100vh;
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(224, 33, 138, 0.6), rgba(255, 182, 193, 1));
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    width: 101%;
+    height: 8vh;
+    background-color: rgba(22, 22, 22, 0.2);
+}
+
+.menu-content {
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+}
+.logo {
+    font-size: 1.9rem;
+    letter-spacing: 0.4rem;
+}
+
+main {
+    height: 100 vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content img {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+    margin-left: 20px;
+    opacity: 0.6;
+}
+
+.second-text {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: justify;
+    padding: 2px;
+}
+.img3{
+    height: 200px;
+    width: 400px;
+    object-fit: relative;
+    padding: 1px;
+}
+.conclusao{
+
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+    overflow: hidden;
+    animation: text 5s steps(110, end) alternate infinite;
+    white-space: nowrap;
+    border-right: 2px solid #fff;
+}
+.nao-sei{
+    padding: 50px;
+    margin-left: 350px;
+}
+@keyframes text {
+    0%{
+        width: 0;
+        border-color: transparent;
+    }
+    50%{
+        border-color: #fff;
+    }
+    100%{
+        width: 100%;
+        border-color: transparent;
+    }
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="menu-content">
+            <h1 class="logo"> A volta do ORKUT </h1>
+        </div>
+    </header>
+    <main>
+        <div class="main-content">
+        <img src="img/orkut.png" class="img3" alt="logo do orkut">
+
+        <p class="second-text">&nbsp;&nbsp;&nbsp;&nbsp;Olá sou o Orkut. Há 17 anos atrás eu criei uma pequena rede social enquanto eu trabalhava no Google como engenheiro de software. Em apenas alguns anos, essa rede social se tornou o orkut.com com mais de 300 milhões de usuários.</p>
+
+        <p class="second-text">&nbsp;&nbsp;&nbsp;&nbsp;Acredito que o orkut.com encontrou sua comunidade porque reuniu tantas vozes diversas de todo o mundo em um só lugar. Trabalhamos muito para tornar o orkut.com uma comunidade onde o ódio e a desinformação não fossem tolerados. Nos dedicamos muito para tornar o orkut.com uma comunidade onde você pudesse conhecer pessoas reais que compartilhavam seus mesmos interesses, não apenas pessoas que curtiram e comentaram em suas fotos.</p>
+
+        <p class="second-text">&nbsp;&nbsp;&nbsp;&nbsp;O mundo precisa de gentileza agora mais do que nunca. Há tanto ódio online nos dias de hoje, e nossas opções para encontrar e construir conexões reais são poucas e bem escassas. Sempre acreditei que uma amizade é mais do que um pedido de amizade, e dediquei minha vida para ajudar milhões de vocês a construir conexões autênticas com seus vizinhos, familiares, funcionários e os belos estranhos que entram em suas vidas.
+
+        <p  class="second-text">&nbsp;&nbsp;&nbsp;&nbsp;Nossas ferramentas online devem nos servir, não nos dividir. Elas devem proteger nossos dados, não vendê-los. Elas devem nos dar esperança, não medo e ansiedade. A melhor rede social é aquela que enriquece sua vida, mas não a manipula. Eu quero que você seja capaz de ser o seu verdadeiro eu, online e offline. Eu quero que você seja capaz de fazer conexões duradouras.</p> 
+
+        <p class="second-text">&nbsp;&nbsp;&nbsp;&nbsp;Eu quero ajudá-lo a fazer isso com todo o meu coração.Eu sou uma pessoa otimista. Acredito no poder da conexão para mudar o mundo. Acredito que o mundo é um lugar melhor quando nos conhecemos um pouco mais. É por isso que criei a primeira rede social do mundo quando era estudante de pós-graduação em Stanford. É por isso que eu trouxe o orkut.com para tantos de vocês ao redor do mundo. E é por isso que estou construindo algo novo.</p>
+        </div>
+    </main>
+    <div class="nao-sei">
+            <p class="conclusao"> Conto com você em breve!</p>
+    </div>
+</body>
+</html>
